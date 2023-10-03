@@ -37,7 +37,7 @@ defmodule ArcAzure.MixProject do
   defp deps do
     [
       {:arc, "~> 0.8"},
-      {:ex_azure, "~> 0.1.1"},
+      {:ex_azure, github: "toodimes/ex_azure"},
       {:ex_doc, "~> 0.17", only: :dev}
     ]
   end
